@@ -5,7 +5,7 @@ Jekyll + Gulp + Browser-sync + Bootstrap 4 + Font-Awesome
 ### https://jekyllrb.com/docs/installation/
 - Ruby (refer to jekyll documentation)
 - RubyGems (refer to jekyll documentation)
-- NodeJS (sudo apt-get install nodejs)
+- NodeJS - use installer
 - NPM (sudo apt-get install npm)
 - Gulp (sudo npm install gulp -g)
 

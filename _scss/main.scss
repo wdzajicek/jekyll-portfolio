@@ -5,25 +5,24 @@
 $fa-font-path: "../fonts/FontAwesome";
 @import "../node_modules/font-awesome/scss/font-awesome";
 
-/* Mixins */
-@import "mixins/rem";
-@import "mixins/transitions";
+/* Variables */
+@import "0-tools/vars";
 
 /* Global */
-@import "base/global";
-
-/* Page */
-@import "pages/home-page";
+@import "1-base/global";
 
 /* Layout */
-@import "layout/topbar";
-@import "layout/header";
-@import "layout/page";
-@import "layout/page-banner";
-@import "layout/footer";
+@import "4-layout/topbar";
+@import "4-layout/header";
+@import "4-layout/page";
+@import "4-layout/page-banner";
+@import "4-layout/footer";
 
 /* Components */
-@import "components/navbar";
+@import "3-modules/navbar";
 
 /* Typography */
-@import "typography/headings";
+@import "1-base/typography";
+
+/* Page */
+@import "5-pages/home-page";
